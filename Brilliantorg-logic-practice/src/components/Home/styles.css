@@ -1,0 +1,44 @@
+body{
+  background-color: #F8F8F8;
+}
+.box{
+  margin-top: 100px;
+}
+.text-1 {
+  text-decoration: none;
+}
+
+.text-1:hover{
+  color: #000;
+}
+
+.text-2{
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.text-3{
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.card{
+  transform: translate(0px,70px);
+  width:480px;
+
+}
+.img {
+  width: 250px;
+  height: 300px;
+  transform: translate(95px,0px);
+  padding-top: 50px;
+}
+@media (max-width:500px) {
+  .card{
+    width:370px;
+  }
+  .img {
+    transform: translate(50px,0px);
+  }
+
+}
