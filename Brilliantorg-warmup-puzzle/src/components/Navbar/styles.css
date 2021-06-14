@@ -1,0 +1,9 @@
+.nav-link{
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 15px;
+	transform: translate(50px,0px);
+}
+.login-btn{
+	margin-right: 10px;
+}
